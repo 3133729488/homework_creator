@@ -11,12 +11,13 @@
 
 ## **2. 依赖安装**
 
-在合适的目录下打开命令行执行以下命令(若无git则忽略第一行直接下载压缩包)
+在合适的目录下打开命令行执行以下命令(若无git则忽略第一行直接下载压缩包；代码中部分特性在PyPDF2 3.0中被弃用，所以需要指定安装2.12.1版本)
 
     git clone https://github.com/Yuxuan10086/homework_creator.git
     pip install python-docx
     pip install opencv-python
     pip install docx2pdf
+    pip install PyPDF2==2.12.1
 
 以上命令执行速度预计会很慢，请耐心等待，若执行失败请重新执行
 
